@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DBD2B4F427EBCCDC00175566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B4F327EBCCDC00175566 /* AppDelegate.swift */; };
 		DBD2B4F627EBCCDC00175566 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B4F527EBCCDC00175566 /* SceneDelegate.swift */; };
-		DBD2B4F827EBCCDC00175566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B4F727EBCCDC00175566 /* ViewController.swift */; };
 		DBD2B4FB27EBCCDC00175566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B4F927EBCCDC00175566 /* Main.storyboard */; };
 		DBD2B4FD27EBCCDD00175566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B4FC27EBCCDD00175566 /* Assets.xcassets */; };
 		DBD2B50027EBCCDD00175566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD2B4FE27EBCCDD00175566 /* LaunchScreen.storyboard */; };
+		DBD2B50827EBCE4100175566 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B50727EBCE4100175566 /* DetailsViewController.swift */; };
+		DBD2B50A27EBCE4D00175566 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B50927EBCE4D00175566 /* ItemTableViewController.swift */; };
+		DBD2B50C27EBCE5800175566 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B50B27EBCE5800175566 /* Item.swift */; };
+		DBD2B50E27EBCE6100175566 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B50D27EBCE6100175566 /* ItemList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBD2B4F027EBCCDC00175566 /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD2B4F327EBCCDC00175566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD2B4F527EBCCDC00175566 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBD2B4F727EBCCDC00175566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBD2B4FA27EBCCDC00175566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD2B4FC27EBCCDD00175566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD2B4FF27EBCCDD00175566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD2B50127EBCCDD00175566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD2B50727EBCE4100175566 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DBD2B50927EBCE4D00175566 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		DBD2B50B27EBCE5800175566 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DBD2B50D27EBCE6100175566 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				DBD2B4F327EBCCDC00175566 /* AppDelegate.swift */,
 				DBD2B4F527EBCCDC00175566 /* SceneDelegate.swift */,
-				DBD2B4F727EBCCDC00175566 /* ViewController.swift */,
+				DBD2B50927EBCE4D00175566 /* ItemTableViewController.swift */,
+				DBD2B50727EBCE4100175566 /* DetailsViewController.swift */,
 				DBD2B4F927EBCCDC00175566 /* Main.storyboard */,
+				DBD2B50B27EBCE5800175566 /* Item.swift */,
+				DBD2B50D27EBCE6100175566 /* ItemList.swift */,
 				DBD2B4FC27EBCCDD00175566 /* Assets.xcassets */,
 				DBD2B4FE27EBCCDD00175566 /* LaunchScreen.storyboard */,
 				DBD2B50127EBCCDD00175566 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD2B4F827EBCCDC00175566 /* ViewController.swift in Sources */,
+				DBD2B50C27EBCE5800175566 /* Item.swift in Sources */,
 				DBD2B4F427EBCCDC00175566 /* AppDelegate.swift in Sources */,
 				DBD2B4F627EBCCDC00175566 /* SceneDelegate.swift in Sources */,
+				DBD2B50A27EBCE4D00175566 /* ItemTableViewController.swift in Sources */,
+				DBD2B50E27EBCE6100175566 /* ItemList.swift in Sources */,
+				DBD2B50827EBCE4100175566 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,8 +301,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPX558XQUS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Inventory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Inventory;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,8 +330,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPX558XQUS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Inventory/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Inventory;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
